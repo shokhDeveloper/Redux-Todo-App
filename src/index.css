@@ -1,0 +1,13 @@
+*::before, *::after, *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+width: 1450px;
+margin: 0 auto;
+padding: 0 20px;
+}
+::-webkit-scrollbar{
+    display: none;
+}

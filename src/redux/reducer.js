@@ -11,8 +11,7 @@ export const TodosReducer = (state = initialState, action) => {
         window.localStorage.setItem("todos", JSON.stringify(state.todos))        
         return {
           ...state
-        };
-        
+        }; 
     }
       break;
     case "Delete":

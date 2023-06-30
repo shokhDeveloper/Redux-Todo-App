@@ -15,6 +15,6 @@ export const Input = () => {
         }   
     }
     return(
-        <input type="text" onKeyUp={handleChange} />
+        <input type="text" className="form-control w-25 mx-auto" placeholder="Create Todo" onKeyUp={handleChange} />
     )
 }

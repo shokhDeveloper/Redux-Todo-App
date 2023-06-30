@@ -5,7 +5,7 @@ export const List = () => {
     const selector = useSelector((state) => state.TodosReducer)
     const todos = selector.todos || []
     return(
-        <ul>
+        <ul className="w-25 list-unstyled  mx-auto overflow-scroll" style={{height: "300px"}}>
             {todos?.length ? (
             <>
                 {todos?.map(item => (
